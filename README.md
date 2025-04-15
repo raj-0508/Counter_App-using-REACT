@@ -1,4 +1,7 @@
 # React Counter App
+==========================
+
+# Project  [Live Link](https://counter-app-using-react-theta.vercel.app/)
 
 A simple counter application built with **React** and **Vite**. This app demonstrates basic React concepts such as state management and event handling.
 
@@ -58,5 +61,7 @@ react-counter-app/
 - Click the **"Auto Increse"** button to Auto Increse the count.
 - Click the **"Stop Auto Increse"** button to Stop Auto Increse the count.
 
+# Screenshot
 
+![image](Screenshot.png)
 
