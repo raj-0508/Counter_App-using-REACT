@@ -15,10 +15,13 @@ function App() {
   const intervalRef = useRef(null);
 
   const autoIncrement = () => {
+    if (intervalRef.current) {
+      clearInterval(intervalRef.current);
+    }
     intervalRef.current = setInterval(() => {
       setCount((prevCount) => prevCount + 1);
     }, 1000);
-  };
+  }
   const stopAutoIncrement = () => {
     if (intervalRef.current) {
       clearInterval(intervalRef.current);
